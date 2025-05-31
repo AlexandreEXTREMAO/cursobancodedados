@@ -18,3 +18,8 @@ CREATE TABLE clientes(
     FOREIGN KEY (id_profissao) REFERENCES profissoes (id)
 
 );
+
+INSERT INTO profissoes (cargo) VALUES ('Programador');
+INSERT INTO profissoes (cargo) VALUES ('Analista de Sistemas');
+INSERT INTO profissoes (cargo) VALUES ('Suporte');
+INSERT INTO profissoes (cargo) VALUES ('Gerente');
